@@ -1,0 +1,374 @@
+<?xml version="1.0"?>
+<DataProfile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/sqlserver/2008/DataDebugger/">
+  <ProfileVersion>1.0</ProfileVersion>
+  <DataSources>
+    <DtsDataSource ID="{EC4A546E-EDDB-4550-833D-6B23AEBA1E9C}" Name="Data Profilling For Campaign Data.txt">
+      <DtsConnectionManagerID>Data Profilling For Campaign Data.txt</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{0A100814-5B6C-4F11-9D35-7EDDAC96780F}" Name="Data Profilling For Category Data.txt">
+      <DtsConnectionManagerID>Data Profilling For Category Data.txt</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{E6729DDD-2911-4D60-8A8D-E00E6CF03A3D}" Name="Data Profilling For Customer Data.txt">
+      <DtsConnectionManagerID>Data Profilling For Customer Data.txt</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{FD2BD038-C879-4833-8DBD-8AC0BBBFB68B}" Name="Data Profilling For District Data.txt">
+      <DtsConnectionManagerID>Data Profilling For District Data.txt</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{E80A1EC6-910D-47A7-B9F7-D79B4F770DCE}" Name="Data Profilling For Item Data.txt">
+      <DtsConnectionManagerID>Data Profilling For Item Data.txt</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{FD8212E9-A8EF-473E-81B9-1D76AC9DF2AD}" Name="Data Profilling For Train Data.txt">
+      <DtsConnectionManagerID>Data Profilling For Train Data.txt</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{5304238C-FB26-4651-B1D4-E7FC4A152D94}" Name="Data Profilling For Transaction Data.txt">
+      <DtsConnectionManagerID>Data Profilling For Transaction Data.txt</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{66AD8F32-2E80-4F30-A030-7FFF980E17BE}" Name="LAPTOP-ERAR39OA\MSSQLSERVER22.PredictingCouponRedemptionStaging.dwbi">
+      <DtsConnectionManagerID>LAPTOP-ERAR39OA\MSSQLSERVER22.PredictingCouponRedemptionStaging.dwbi</DtsConnectionManagerID>
+    </DtsDataSource>
+  </DataSources>
+  <DataProfileInput>
+    <ProfileMode>Exact</ProfileMode>
+    <Timeout>0</Timeout>
+    <Requests>
+      <ColumnNullRatioProfileRequest ID="NullRatioReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table Schema="dbo" Table="StgCategory" />
+        <Column IsWildCard="true" />
+      </ColumnNullRatioProfileRequest>
+      <ColumnStatisticsProfileRequest ID="StatisticsReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table Schema="dbo" Table="StgCategory" />
+        <Column IsWildCard="true" />
+      </ColumnStatisticsProfileRequest>
+      <ColumnLengthDistributionProfileRequest ID="LengthDistReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table Schema="dbo" Table="StgCategory" />
+        <Column IsWildCard="true" />
+        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
+        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
+      </ColumnLengthDistributionProfileRequest>
+      <ColumnValueDistributionProfileRequest ID="ValueDistReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table Schema="dbo" Table="StgCategory" />
+        <Column IsWildCard="true" />
+        <Option>FrequentValues</Option>
+        <FrequentValueThreshold>0.001</FrequentValueThreshold>
+      </ColumnValueDistributionProfileRequest>
+      <ColumnPatternProfileRequest ID="PatternReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table Schema="dbo" Table="StgCategory" />
+        <Column IsWildCard="true" />
+        <MaxNumberOfPatterns>10</MaxNumberOfPatterns>
+        <PercentageDataCoverageDesired>95</PercentageDataCoverageDesired>
+        <CaseSensitive>false</CaseSensitive>
+        <Delimiters> \t\r\n</Delimiters>
+        <Symbols>,.;:-"'`~=&amp;/\\@!?()&lt;&gt;[]{}|#*^%</Symbols>
+        <TagTableName />
+      </ColumnPatternProfileRequest>
+      <CandidateKeyProfileRequest ID="KeyReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table Schema="dbo" Table="StgCategory" />
+        <KeyColumns>
+          <Column IsWildCard="true" />
+        </KeyColumns>
+        <ThresholdSetting>Specified</ThresholdSetting>
+        <KeyStrengthThreshold>0.95</KeyStrengthThreshold>
+        <VerifyOutputInFastMode>false</VerifyOutputInFastMode>
+        <MaxNumberOfViolations>100</MaxNumberOfViolations>
+      </CandidateKeyProfileRequest>
+      <FunctionalDependencyProfileRequest ID="FDReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table Schema="dbo" Table="StgCategory" />
+        <DeterminantColumns>
+          <Column IsWildCard="true" />
+        </DeterminantColumns>
+        <DependentColumn IsWildCard="true" />
+        <ThresholdSetting>Specified</ThresholdSetting>
+        <FDStrengthThreshold>0.95</FDStrengthThreshold>
+        <VerifyOutputInFastMode>false</VerifyOutputInFastMode>
+        <MaxNumberOfViolations>100</MaxNumberOfViolations>
+      </FunctionalDependencyProfileRequest>
+    </Requests>
+  </DataProfileInput>
+  <DataProfileOutput>
+    <Profiles>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq" IsExact="true">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <Column Name="CategoryID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq" IsExact="true">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <Column Name="CategoryName" SqlDbType="VarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq" IsExact="true">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <Column Name="SrcModifiedDate" SqlDbType="DateTime" MaxLength="0" Precision="255" Scale="255" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnStatisticsProfile IsExact="true" ProfileRequestID="StatisticsReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <Column Name="CategoryID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <MinValue>1</MinValue>
+        <MaxValue>10</MaxValue>
+        <Mean>5.5</Mean>
+        <StdDev>2.87228132326901</StdDev>
+      </ColumnStatisticsProfile>
+      <ColumnStatisticsProfile IsExact="true" ProfileRequestID="StatisticsReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <Column Name="SrcModifiedDate" SqlDbType="DateTime" MaxLength="0" Precision="255" Scale="255" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <MinValue>2008-05-31T00:00:00.0000000</MinValue>
+        <MaxValue>2008-05-31T00:00:00.0000000</MaxValue>
+      </ColumnStatisticsProfile>
+      <ColumnLengthDistributionProfile ProfileRequestID="LengthDistReq" IsExact="true">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <Column Name="CategoryName" SqlDbType="VarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
+        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
+        <MinLength>6</MinLength>
+        <MaxLength>16</MaxLength>
+        <LengthDistribution>
+          <LengthDistributionItem>
+            <Length>6</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>7</Length>
+            <Count>2</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>13</Length>
+            <Count>3</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>14</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>15</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>16</Length>
+            <Count>2</Count>
+          </LengthDistributionItem>
+        </LengthDistribution>
+      </ColumnLengthDistributionProfile>
+      <CandidateKeyProfile IsExact="true" ProfileRequestID="KeyReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <KeyColumns>
+          <Column Name="CategoryID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </KeyColumns>
+        <IsExactKey>true</IsExactKey>
+      </CandidateKeyProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <Column Name="CategoryID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>10</NumberOfDistinctValues>
+        <ValueDistribution>
+          <ValueDistributionItem>
+            <Value>1</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>2</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>3</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>4</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>5</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>6</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>7</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>8</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>9</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>10</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+        </ValueDistribution>
+      </ColumnValueDistributionProfile>
+      <CandidateKeyProfile IsExact="true" ProfileRequestID="KeyReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <KeyColumns>
+          <Column Name="CategoryName" SqlDbType="VarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </KeyColumns>
+        <IsExactKey>true</IsExactKey>
+      </CandidateKeyProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <Column Name="CategoryName" SqlDbType="VarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>10</NumberOfDistinctValues>
+        <ValueDistribution>
+          <ValueDistributionItem>
+            <Value>Bakery</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>Grocery</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>Juices &amp; Snacks</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>Miscellaneous</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>Natural Products</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>Packaged Meat</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>Pharmaceutical</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>Prepared Food</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>Seafood</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>Skin &amp; Hair Care</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+        </ValueDistribution>
+      </ColumnValueDistributionProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <Column Name="SrcModifiedDate" SqlDbType="DateTime" MaxLength="0" Precision="255" Scale="255" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>1</NumberOfDistinctValues>
+        <ValueDistribution>
+          <ValueDistributionItem>
+            <Value>2008-05-31T00:00:00.0000000</Value>
+            <Count>10</Count>
+          </ValueDistributionItem>
+        </ValueDistribution>
+      </ColumnValueDistributionProfile>
+      <ColumnPatternProfile ProfileRequestID="PatternReq" IsExact="true">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <Column Name="CategoryName" SqlDbType="VarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <TopRegexPatterns>
+          <PatternDistributionItem>
+            <RegexText>PHARMACEUTICAL</RegexText>
+            <Frequency>10</Frequency>
+          </PatternDistributionItem>
+          <PatternDistributionItem>
+            <RegexText>MISCELLANEOUS</RegexText>
+            <Frequency>10</Frequency>
+          </PatternDistributionItem>
+          <PatternDistributionItem>
+            <RegexText>NATURAL PRODUCTS</RegexText>
+            <Frequency>10</Frequency>
+          </PatternDistributionItem>
+          <PatternDistributionItem>
+            <RegexText>PACKAGED MEAT</RegexText>
+            <Frequency>10</Frequency>
+          </PatternDistributionItem>
+          <PatternDistributionItem>
+            <RegexText>PREPARED FOOD</RegexText>
+            <Frequency>10</Frequency>
+          </PatternDistributionItem>
+          <PatternDistributionItem>
+            <RegexText>JUICES &amp; SNACKS</RegexText>
+            <Frequency>10</Frequency>
+          </PatternDistributionItem>
+          <PatternDistributionItem>
+            <RegexText>SKIN &amp; HAIR CARE</RegexText>
+            <Frequency>10</Frequency>
+          </PatternDistributionItem>
+          <PatternDistributionItem>
+            <RegexText>GROCERY</RegexText>
+            <Frequency>10</Frequency>
+          </PatternDistributionItem>
+          <PatternDistributionItem>
+            <RegexText>SEAFOOD</RegexText>
+            <Frequency>10</Frequency>
+          </PatternDistributionItem>
+          <PatternDistributionItem>
+            <RegexText>BAKERY</RegexText>
+            <Frequency>10</Frequency>
+          </PatternDistributionItem>
+        </TopRegexPatterns>
+      </ColumnPatternProfile>
+      <FunctionalDependencyProfile IsExact="true" ProfileRequestID="">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <DeterminantColumns>
+          <Column Name="CategoryName" SqlDbType="VarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </DeterminantColumns>
+        <DependentColumn Name="SrcModifiedDate" SqlDbType="DateTime" MaxLength="0" Precision="255" Scale="255" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IsExactFD>true</IsExactFD>
+      </FunctionalDependencyProfile>
+      <FunctionalDependencyProfile IsExact="true" ProfileRequestID="">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <DeterminantColumns>
+          <Column Name="CategoryID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </DeterminantColumns>
+        <DependentColumn Name="SrcModifiedDate" SqlDbType="DateTime" MaxLength="0" Precision="255" Scale="255" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IsExactFD>true</IsExactFD>
+      </FunctionalDependencyProfile>
+      <FunctionalDependencyProfile IsExact="true" ProfileRequestID="">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <DeterminantColumns>
+          <Column Name="CategoryID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </DeterminantColumns>
+        <DependentColumn Name="CategoryName" SqlDbType="VarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IsExactFD>true</IsExactFD>
+      </FunctionalDependencyProfile>
+      <FunctionalDependencyProfile IsExact="true" ProfileRequestID="">
+        <DataSourceID>{66AD8F32-2E80-4F30-A030-7FFF980E17BE}</DataSourceID>
+        <Table DataSource="LAPTOP-ERAR39OA\MSSQLSERVER22" Database="PredictingCouponRedemptionStaging" Schema="dbo" Table="StgCategory" RowCount="10" />
+        <DeterminantColumns>
+          <Column Name="CategoryName" SqlDbType="VarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </DeterminantColumns>
+        <DependentColumn Name="CategoryID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IsExactFD>true</IsExactFD>
+      </FunctionalDependencyProfile>
+    </Profiles>
+  </DataProfileOutput>
+</DataProfile>

@@ -1,0 +1,501 @@
+Customer_id	Name	Gender	AgeRange	Marital_status	Phone_no	District_id	Rented	Family_size	NoOfChildren	Income_bracket
+1	Ronald	M	70+	Married	1 (11) 500 555-0174	18	0	2	1	4
+2	Alyssa	F	46-55	Married	966-555-0118	1	0	2	2	5
+3	Kelvin		26-35	Single	1 (11) 500 555-0135	1	0	3	0	3
+4	Shannon		26-35		1 (11) 500 555-0180	5	0	4	2	6
+5	Ronald	M	46-55	Single	1 (11) 500 555-0189	5	0	1	0	5
+6	Alyssa	F	70+	Single	931-555-0112	12	0	2	0	1
+7	Alyssa	F	46-55	Married	144-555-0113	15	0	2	3	7
+8	Ronald	M	36-45	Single	1 (11) 500 555-0180	51	0	1	0	2
+9	Ronald	M	26-35	Married	1 (11) 500 555-0159	60	1	2	4	6
+10	Alyssa	F	46-55	Married	1 (11) 500 555-0127	57	0	2	1	6
+11	Ronald	M	46-55		698-555-0138	57	0	1	0	3
+12	Alyssa	F	36-45	Single	1 (11) 500 555-0162	40	0	2	0	4
+13	Ronald	M	36-45	Married	715-555-0165	54	0	2	2	8
+14	Ronald	M	46-55	Single	1 (11) 500 555-0154	76	0	1	0	1
+15	Alyssa	F	70+		722-555-0126	21	0	1	0	5
+16	Ronald	M	36-45	Single	188-555-0142	21	0	5	0	2
+17	Alyssa	F	46-55	Married	1 (11) 500 555-0186	76	0	5	3	9
+18	Alyssa		18-25		491-555-0143	76	0	2	2	4
+19	Ronald	M	36-45	Married	387-555-0174	47	0	2	2	4
+20	Alyssa	F	46-55	Single	1 (11) 500 555-0148	46	0	2	0	5
+21	Alyssa	F	70+	Married	561-555-0140	12	0	2	4	4
+22	Ronald	M	56-70	Married	805-555-0188	1	0	4	2	7
+23	Alyssa	F	46-55	Single	1 (11) 500 555-0138	1	0	2	0	4
+24	Ronald	M	26-35	Married	1 (11) 500 555-0196	43	0	4	2	9
+25	Shannon	M	46-55	Married	1 (11) 500 555-0195	21	0	5	3	1
+26	Ronald	M	36-45	Married	1 (11) 500 555-0119	74	0	2	2	3
+27	Ronald	M	70+	Married	1 (11) 500 555-0122	54	0	2	3	2
+28	Ronald	M	36-45	Married	1 (11) 500 555-0175	1	0	5	3	7
+29	Ronald	M	56-70	Single	508-555-0164	30	0	1	0	3
+30	Ronald	M	46-55		1 (11) 500 555-0135	74	0	2	3	5
+31	Ronald	M	26-35		1 (11) 500 555-0173	68	0	1	0	4
+32	Alyssa	F	70+	Single	187-555-0159	52	0	1	0	4
+33	Ronald	M	46-55		352-555-0132	73	0	1	0	6
+34	Phillip	M	36-45	Single	1 (11) 500 555-0168	7	0	2	1	4
+35	Phillip	M	46-55	Married	1 (11) 500 555-0151	7	0	4	2	1
+36	Phillip	M	36-45	Married	1 (11) 500 555-0136	36	0	5	3	4
+37	Alyssa	F	26-35	Single	632-555-0118	68	0	3	0	1
+38	Shannon	M	26-35	Married	357-555-0194	5	0	2	1	2
+39	Alyssa	F	26-35	Single	1 (11) 500 555-0188	22	0	1	0	4
+40	Phillip	M	36-45	Married	494-555-0178	68	0	4	2	8
+41	Alyssa	F	26-35	Single	1 (11) 500 555-0144	75	0	1	0	4
+42	Phillip	M	70+	Single	926-555-0171	38	0	2	0	4
+43	Phillip	M	46-55	Single	1 (11) 500 555-0122	20	0	1	0	4
+44	Phillip	M	46-55	Married	1 (11) 500 555-0146	19	0	1	0	8
+45	Phillip	M	46-55	Single	1 (11) 500 555-0115	76	0	3	1	3
+46	Alyssa	F	46-55	Single	1 (11) 500 555-0123	16	0	2	0	4
+47	Phillip	M	46-55	Married	226-555-0117	72	0	1	2	3
+48	Phillip	M	46-55	Single	827-555-0134	39	0	2	1	5
+49	Phillip	M	46-55	Married	1 (11) 500 555-0180	36	0	2	3	1
+50	Shannon	M	56-70	Married	1 (11) 500 555-0110	32	0	2	4	3
+51	Phillip	M	46-55	Single	1 (11) 500 555-0110	64	0	1	2	5
+52	Alyssa	F	36-45	Single	1 (11) 500 555-0152	45	0	1	0	6
+53	Phillip	M	46-55	Married	186-555-0170	21	0	2	2	4
+54	Alyssa	F	36-45	Single	1 (11) 500 555-0156	21	0	3	0	5
+55	Phillip	M	18-25	Married	101-555-0135	1	0	2	2	2
+56	Alyssa	F	46-55	Single	1 (11) 500 555-0198	1	0	1	0	5
+57	Phillip	M	18-25	Married	553-555-0180	67	0	3	1	6
+58	Phillip	M	46-55	Single	1 (11) 500 555-0132	16	0	2	0	4
+59	Phillip	M	56-70	Married	1 (11) 500 555-0199	77	0	2	4	4
+60	Alyssa	F	26-35	Married	1 (11) 500 555-0165	4	0	3	1	5
+61	Phillip	M	46-55	Married	166-555-0119	20	0	1	2	3
+62	Phillip	M	46-55	Married	1 (11) 500 555-0155	50	0	2	0	4
+63	Phillip	M	46-55	Married	1 (11) 500 555-0171	1	0	2		6
+64	Phillip	M	36-45	Married	1 (11) 500 555-0136	29	0	3	0	1
+65	Alyssa	F	46-55	Single	1 (11) 500 555-0169	43	0	1	0	5
+66	Phillip	M	46-55	Single	317-555-0120	70	0	1	0	3
+67	Alyssa	F	70+	Married	1 (11) 500 555-0119	70	0	2	2	4
+68	George	M	36-45	Married	132-555-0144	47	0	1	2	1
+69	George	M	56-70	Single	1 (11) 500 555-0134	22	0	2	0	1
+70	George	M	36-45	Single	1 (11) 500 555-0189	22	0	1	2	5
+71	George	M	46-55	Married	1 (11) 500 555-0127	64	0	2	3	2
+72	Alyssa	F	56-70	Married	1 (11) 500 555-0113	36	0	2	5	9
+73	George	M	46-55	Married	331-555-0117	1	0	2	2	4
+74	Alyssa	F	70+	Single	1 (11) 500 555-0197	16	0	1	1	2
+75	Alyssa	F	36-45	Married	801-555-0135	37	0	2	3	4
+76	Alyssa	F	26-35	Single	139-555-0181	64	0	1	0	3
+77	George	M	36-45	Single	454-555-0144	8	0	2	0	4
+78	Alyssa	F	36-45	Married	169-555-0194	8	0	5	3	12
+79	Shannon	M	46-55	Single	489-555-0146	1	1	1	0	5
+80	George	M	46-55	Married	1 (11) 500 555-0122	1	0	5	3	6
+81	George	M	70+	Single	503-555-0119	1	0	2	0	5
+82	George	M	36-45	Married	1 (11) 500 555-0150	1	0	4	2	8
+83	Alyssa	F	36-45	Married	241-555-0183	72	1	3	1	1
+84	George	M	46-55	Single	727-555-0180	1	0	1	0	1
+85	George	M	26-35	Single	1 (11) 500 555-0163	52	0	1	0	5
+86	Alyssa	F	26-35		1 (11) 500 555-0191	63	0	3	2	3
+87	Alyssa	F	46-55	Married	975-555-0124	74	0	2	2	4
+88	Alyssa	F	46-55	Single	903-555-0145	3	0	2	0	6
+89	George	M	36-45	Married	1 (11) 500 555-0193	43	0	1	2	4
+90	Alyssa	F	36-45	Single	206-555-0177	43	0	1	0	5
+91	Florian	F	46-55	Single	253-555-0112	74	0	1	0	4
+92	Alyssa	F	26-35	Married	798-555-0167	26	0	2	1	5
+93	George	M	46-55	Single	470-555-0136	33	0	1	0	7
+94	Alyssa	F	26-35	Single	1 (11) 500 555-0115	33	0	2	0	4
+95	George	M	26-35	Married	1 (11) 500 555-0182	44	0	4	2	5
+96	George	M	56-70	Married	1 (11) 500 555-0162	68	0	2	3	1
+97	George		36-45	Married	1 (11) 500 555-0171	74	0	4	2	4
+98	George	M	46-55	Single	1 (11) 500 555-0148	74	0	1	0	4
+99	Alyssa	F	26-35		1 (11) 500 555-0146	31	0	2	2	5
+100	George	M	18-25	Single	159-555-0117	68	0	1	0	4
+101	Alyssa	F	46-55	Married	1 (11) 500 555-0198	1	0	3	1	6
+102	George		46-55	Married	1 (11) 500 555-0184	17	0	2	2	6
+103	Alyssa	F	46-55	Single	1 (11) 500 555-0168	2	0	4	0	4
+104	George	M	46-55	Married	615-555-0143	1	0	2	2	7
+105	George	M	46-55	Single	1 (11) 500 555-0181	1	0	1	0	5
+106	George	M	26-35	Single	1 (11) 500 555-0123	74	0	1	0	6
+107	Alyssa	F	36-45	Married	1 (11) 500 555-0179	74	0	5	3	8
+108	George	M	46-55	Married	506-555-0145	74	0	2	0	1
+109	Cindy	F	70+	Married	296-555-0110	74	0	2	1	5
+110	Cory	M	46-55	Married	198-555-0152	55	0	4	2	5
+111	Cory	M	46-55		109-555-0114	55	0	1	0	5
+112	Cory		46-55	Married	1 (11) 500 555-0114	1	0	2	3	9
+113	Chloe	F	26-35	Married	1 (11) 500 555-0173	41	0	5	2	4
+114	Shannon	M	36-45	Single	782-555-0126	35	0	1	0	5
+115	Kenneth	M	46-55	Single	1 (11) 500 555-0110	11	0	1	2	5
+116	Chloe	F	70+	Single	1 (11) 500 555-0115	44	0	1	0	5
+117	Derek	M	56-70	Married	679-555-0168	37	0	2	5	5
+118	Derek	M	70+	Single	1 (11) 500 555-0161	37	0	1	0	5
+119	Derek	M	36-45	Married	1 (11) 500 555-0174	21	0	3	1	6
+120	Derek	M	46-55	Married	1 (11) 500 555-0162	63	0	2	2	5
+121	Chloe	F	56-70	Married	1 (11) 500 555-0195	64	0	2	3	5
+122	Derek	M	26-35	Single	578-555-0118	53	0	2	0	4
+123	Chloe	F	46-55	Single	1 (11) 500 555-0190	53	0	1	0	5
+124	Derek	M	36-45	Single	418-555-0176	36	0	1	0	3
+125	Shannon	M	26-35	Single	1 (11) 500 555-0143	6	0	1	0	5
+126	Derek	M	36-45	Single	1 (11) 500 555-0136	6	0	1	0	9
+127	Don	M	46-55	Single	1 (11) 500 555-0127	55	1	1	0	3
+128	Chloe	F	70+	Single	1 (11) 500 555-0172	60	0	1	0	3
+129	Chloe	F	36-45	Married	417-555-0134	54	0	3	1	12
+130	Chloe	F	36-45	Married	555-555-0111	8	0	3	1	9
+131	Derek	M	26-35	Married	799-555-0112	8	0	2	0	3
+132	Derek	M	18-25	Single	1 (11) 500 555-0128	31	0	2	0	3
+133	Cindy	F	56-70	Married	1 (11) 500 555-0148	68	0	5	3	4
+134	Derek	M	36-45	Single	364-555-0177	27	0	1	0	1
+135	Chloe	F	70+	Married	1 (11) 500 555-0129	65	0	2	0	2
+136	Chloe	F	46-55	Single	612-555-0181	55	0	1	0	7
+137	Derek	M	36-45	Single	372-555-0142	31	0	3	1	4
+138	Carol	F	46-55	Single	1 (11) 500 555-0153	21	0	2	0	5
+139	Chloe	F	18-25		1 (11) 500 555-0146	21	0	2	0	5
+140	Derek	M	18-25	Single	890-555-0130	55	0	1	0	3
+141	Chloe	F	36-45	Married	1 (11) 500 555-0112	2	0	3	1	2
+142	Derek	M	26-35	Married	237-555-0112	51	0	5	3	5
+143	Chloe	F	36-45	Married	1 (11) 500 555-0113	29	0	2	0	5
+144	Derek	M	46-55	Single	1 (11) 500 555-0116	13	0	1	0	5
+145	Chloe	F	26-35	Single	1 (11) 500 555-0190	74	0	2	0	2
+146	Chloe	F	46-55	Married	132-555-0183	74	0	2	2	3
+147	Chloe	F	26-35	Single	494-555-0164	54	1	2	0	1
+148	Cindy	F	56-70		772-555-0144	52	0	1	0	4
+149	Chloe	F	18-25	Single	772-555-0150	40	0	2	0	5
+150	Shannon	M	56-70	Married	816-555-0118	40	0	2	3	4
+151	Derek	M	70+	Single	1 (11) 500 555-0122	64	0	1	0	3
+152	Derek	M	70+	Single	1 (11) 500 555-0119	34	0	1	0	7
+153	Cindy	F	70+	Married	892-555-0114	65	0	2	0	5
+154	Derek	M	46-55	Married	458-555-0190	74	0	1	2	6
+155	Chloe	F	46-55	Single	1 (11) 500 555-0114	70	0	1	0	5
+156	Derek	M	46-55	Married	1 (11) 500 555-0117	22	0	1	0	4
+157	Derek	M	26-35	Single	1 (11) 500 555-0123	22	0	1	0	2
+158	Derek	M	36-45		1 (11) 500 555-0151	38	0	1	0	3
+159	Bradley	M	56-70	Single	1 (11) 500 555-0130	24	0	1	0	9
+160	Chloe	F	36-45	Married	1 (11) 500 555-0130	38	0	5	3	6
+161	Chloe	F	46-55	Married	331-555-0117	38	0	2	0	6
+162	Chloe	F	46-55	Single	135-555-0183	51	0	2	0	5
+163	Chloe	F	56-70	Single	466-555-0127	51	0	1	0	5
+164	Bradley	M	36-45	Married	391-555-0126	21	0	3	1	12
+165	Chloe	F	46-55	Single	929-555-0194	10	0	1	0	6
+166	Kelvin	M	46-55	Married	619-555-0121	31	0	2	2	6
+167	Bradley	M	70+	Single	1 (11) 500 555-0192	4	0	1	0	4
+168	Bradley	M	46-55	Single	1 (11) 500 555-0152	8	0	1	0	5
+169	Bradley	M	46-55		1 (11) 500 555-0197	43	0	1	0	5
+170	Bradley	M	46-55	Single	1 (11) 500 555-0127	73	0	1	0	4
+171	Bradley	M	26-35	Single	1 (11) 500 555-0161	76	0	1	0	5
+172	Chloe	F	26-35	Married	1 (11) 500 555-0142	76	0	1	2	4
+173	Chloe	F	36-45	Married	291-555-0118	1	0	3	1	4
+174	Chloe	F	46-55	Single	651-555-0113	1	0	1	0	5
+175	Bradley	M	36-45	Single	1 (11) 500 555-0184	77	0	2	0	6
+176	Chloe	F	46-55	Married	1 (11) 500 555-0174	46	0	2	2	6
+177	Bradley	M	18-25	Married	903-555-0123	58	0	2	0	4
+178	Chloe	F	18-25	Single	1 (11) 500 555-0124	64	0	1	0	3
+179	Chloe	F	36-45	Married	253-555-0132	11	0	3	1	12
+180	Bradley	M	36-45	Married	419-555-0111	37	0	3	1	6
+181	Bradley	M	36-45	Single	1 (11) 500 555-0172	37	0	1	0	5
+182	Shannon	M	56-70	Married	598-555-0176	70	0	2	5	4
+183	Bradley	M	26-35	Single	1 (11) 500 555-0132	1	0	1	0	5
+184	Chloe	F	46-55	Married	1 (11) 500 555-0145	28	0	3	1	8
+185	Chloe	F	36-45	Single	393-555-0113	74	0	1	0	2
+186	Bradley	M	18-25	Married	751-555-0166	74	1	3	1	4
+187	Chloe	F	36-45	Married	1 (11) 500 555-0155	30	0	5	3	5
+188	Bradley	M	26-35	Single	393-555-0132	60	0	1	0	4
+189	Bradley	M	46-55	Married	1 (11) 500 555-0125	29	0	3	1	2
+190	Chloe	F	18-25	Single	1 (11) 500 555-0169	29	0	1	0	1
+191	Bradley	M	36-45	Single	312-555-0187	17	0	1	0	3
+192	Bradley	M	36-45	Married	1 (11) 500 555-0183	29	0	4	2	7
+193	Chloe	F	26-35	Married	1 (11) 500 555-0174	31	0	4	2	6
+194	Bradley	M	46-55	Single	909-555-0199	31	0	1	0	4
+195	Chloe	F	46-55	Married	1 (11) 500 555-0124	4	0	1	2	8
+196	Bradley	M	26-35	Single	185-555-0196	59	1	5	0	3
+197	Bradley	M	46-55	Married	1 (11) 500 555-0142	46	0	1	2	5
+198	Dwayne	M	36-45	Married	1 (11) 500 555-0155	13	0	4	2	2
+199	Bradley	M	46-55	Single	1 (11) 500 555-0191	13	0	1	0	4
+200	Chloe	F	36-45	Single	1 (11) 500 555-0133	66	0	1	0	2
+201	Bradley	M	46-55	Married	276-555-0136	66	0	3	1	4
+202	Chloe	F	46-55	Single	1 (11) 500 555-0154	52	0	1	0	5
+203	Cindy	F	36-45	Married	685-555-0116	71	0	3	1	4
+204	Chloe	F	70+	Married	337-555-0150	1	0	3	1	7
+205	Chad	M	70+	Married	853-555-0130	59	0	2	4	6
+206	Chloe	F	36-45	Married	1 (11) 500 555-0167	1	1	4	2	5
+207	Chad	M	56-70	Married	851-555-0169	60	0	2	3	5
+208	Chloe	F	46-55		1 (11) 500 555-0164	21	0	1	0	5
+209	Chad	M	56-70	Married	257-555-0128	47	0	3	1	4
+210	Chad	M	36-45	Single	1 (11) 500 555-0174	43	0	3	0	4
+211	Chloe	F	36-45	Single	1 (11) 500 555-0126	77	0	2	0	3
+212	Chad	M	36-45	Single	344-555-0116	32	0	3	0	5
+213	Chloe	F	46-55	Married	1 (11) 500 555-0189	1	0	1	0	5
+214	Chad	M	70+	Married	160-555-0168	52	0	2	0	8
+215	Chad	M	36-45	Married	1 (11) 500 555-0141	48	0	2	2	1
+216	Dwayne	M	36-45	Married	1 (11) 500 555-0115	76	0	3	1	8
+217	Chad	M	70+	Single	1 (11) 500 555-0113	74	0	1	0	2
+218	Chloe	F	70+	Single	1 (11) 500 555-0151	41	0	3	0	4
+219	Chad	M	46-55	Married	699-555-0199	55	0	2	2	2
+220	Julia	F	36-45	Single	1 (11) 500 555-0147	69	0	3	0	4
+221	Chad	M	36-45	Married	708-555-0197	69	0	2	1	5
+222	Chad	M	46-55	Married	782-555-0118	44	0	2	1	5
+223	Julia	F	46-55	Single	830-555-0146	70	0	2	0	5
+224	Julia	F	26-35	Married	511-555-0168	70	0	5	3	7
+225	Chad	M	36-45	Married	1 (11) 500 555-0114	6	0	4	2	7
+226	Julia	F	70+	Married	355-555-0162	1	0	2	3	5
+227	Chad	M	56-70		816-555-0112	34	0	3	1	2
+228	Chad	M	56-70	Married	1 (11) 500 555-0154	70	0	2	2	2
+229	Judith	F	46-55	Married	1 (11) 500 555-0138	17	0	5	3	6
+230	Chad	M	46-55	Married	220-555-0118	63	0	5	3	3
+231	Julia	F	36-45	Married	1 (11) 500 555-0169	67	0	2	2	5
+232	Julia	F	46-55	Single	700-555-0173	1	0	2	0	3
+233	Judith	F	46-55	Single	362-555-0196	61	0	2	0	4
+234	Julia	F	56-70	Married	692-555-0193	61	0	4	2	6
+235	Dwayne	M	46-55	Married	855-555-0183	8	0	2	1	6
+236	Chad	M	46-55	Married	756-555-0113	54	0	2	3	10
+237	Julia	F	70+		1 (11) 500 555-0179	37	0	3	1	5
+238	Chad	M	36-45	Married	370-555-0185	48	1	4	2	2
+239	Chad	M	46-55	Single	248-555-0127	28	0	3	0	1
+240	Chad	M	36-45	Married	1 (11) 500 555-0117	27	1	2	2	6
+241	Julia	F	36-45	Single	1 (11) 500 555-0145	73	0	1	0	5
+242	Julia	F	26-35	Married	1 (11) 500 555-0160	22	0	5	3	8
+243	Chad	M	36-45	Married	647-555-0111	22	1	2	2	8
+244	Julia	F	36-45	Married	745-555-0141	31	0	5	3	5
+245	Chad	M	46-55	Married	187-555-0121	31	0	2	2	9
+246	Julia	F	36-45	Married	1 (11) 500 555-0154	38	1	2	1	5
+247	Julia	F	46-55	Single	508-555-0120	77	0	2	0	5
+248	Julia	F	70+	Single	182-555-0111	68	0	2	0	8
+249	Shawn	M	46-55	Married	391-555-0176	28	0	2	0	7
+250	Shawn	M	70+	Married	118-555-0190	72	0	2	2	6
+251	Shawn	M	18-25	Single	1 (11) 500 555-0164	19	0	2	0	6
+252	Shawn	M	26-35	Single	1 (11) 500 555-0173	37	0	1	0	3
+253	Julia	F	26-35	Single	1 (11) 500 555-0145	39	0	2	0	1
+254	Shawn	M	46-55	Married	207-555-0114	15	0	1	0	5
+255	Julia	F	26-35	Married	1 (11) 500 555-0128	46	0	2	2	6
+256	Shawn	M	26-35	Married	644-555-0187	46	0	2	1	4
+257	Julia	F	70+		1 (11) 500 555-0143	70	0	2	0	4
+258	Shawn	M	26-35	Single	297-555-0169	27	0	2	0	6
+259	Julia	F	36-45	Married	1 (11) 500 555-0178	17	0	2	0	6
+260	Shawn	M	46-55	Single	845-555-0143	1	0	3	1	6
+261	Shawn	M	26-35	Single	1 (11) 500 555-0137	1	0	1	0	5
+262	Julia	F	36-45	Married	1 (11) 500 555-0116	1	0	3	1	9
+263	Shawn	M	36-45	Married	753-555-0112	22	0	3	1	5
+264	Julia	F	46-55	Married	926-555-0117	22	0	2	0	10
+265	Shawn	M	46-55	Single	140-555-0190	45	0	3	0	5
+266	Julia	F	36-45	Married	1 (11) 500 555-0120	73	0	5	3	6
+267	Shawn	M	46-55	Married	649-555-0115	73	0	2	2	11
+268	Julia	F	18-25	Single	1 (11) 500 555-0155	10	0	1	0	5
+269	Dwayne	M	26-35		399-555-0167	72	0	4	2	4
+270	Shawn	M	26-35	Single	192-555-0199	72	0	1	0	10
+271	Shawn	M	56-70	Single	430-555-0120	50	0	1	0	4
+272	Julia	F	70+	Married	116-555-0136	6	0	3	1	4
+273	Julia	F	26-35	Single	1 (11) 500 555-0148	54	0	1	0	5
+274	Shawn	M	46-55		1 (11) 500 555-0194	72	0	1	0	2
+275	Julia	F	36-45	Single	1 (11) 500 555-0183	72	0	2	0	2
+276	Shawn	M	46-55		716-555-0194	15	0	1	0	6
+277	Julia	F	70+	Married	1 (11) 500 555-0159	69	0	2	0	4
+278	Julia	F	36-45	Married	193-555-0199	58	0	3	1	11
+279	Shawn	M	26-35		907-555-0170	12	0	3	2	4
+280	Shawn	M	36-45	Single	1 (11) 500 555-0170	65	0	2	0	5
+281	Shawn	M	46-55	Single	1 (11) 500 555-0117	65	0	2	0	5
+282	Julia	F	36-45	Married	756-555-0138	65	0	2	1	4
+283	Shawn	M	36-45	Married	483-555-0189	1	0	2	2	7
+284	Shawn	M	26-35		1 (11) 500 555-0113	28	0	3	1	9
+285	Julia	F	26-35	Married	1 (11) 500 555-0124	56	0	4	2	5
+286	Dwayne	M	46-55	Single	364-555-0142	74	0	1	0	9
+287	Shawn	M	56-70	Married	1 (11) 500 555-0147	19	0	2	2	8
+288	Shawn	M	36-45	Married	1 (11) 500 555-0122	46	0	2	3	4
+289	Peter	M	36-45	Single	1 (11) 500 555-0156	68	0	1	0	4
+290	Julia	F	56-70	Married	1 (11) 500 555-0113	37	0	2	4	1
+291	Peter	M	46-55	Married	721-555-0117	11	0	3	1	7
+292	Julia	F	26-35	Married	1 (11) 500 555-0135	64	0	2	6	8
+293	Peter	M	46-55	Single	233-555-0146	2	0	1	0	2
+294	Julia	F	46-55	Married	1 (11) 500 555-0178	24	0	5	3	4
+295	Julia	F	46-55	Single	284-555-0163	24	0	1	0	4
+296	Peter	M	36-45		361-555-0138	54	0	2	0	1
+297	Peter	M	46-55	Single	211-555-0161	75	1	2	0	3
+298	Peter	M	18-25	Single	1 (11) 500 555-0115	64	0	1	0	2
+299	Julia	F	46-55		1 (11) 500 555-0167	15	0	1	0	1
+300	Peter	M	46-55	Single	1 (11) 500 555-0148	19	0	1	0	6
+301	Peter	M	18-25	Married	1 (11) 500 555-0153	19	0	2	4	11
+302	Julia	F	18-25		1 (11) 500 555-0128	47	0	1	0	1
+303	Peter	M	70+	Single	227-555-0134	38	0	1	0	4
+304	Julia	F	26-35	Married	1 (11) 500 555-0116	38	0	2	2	5
+305	Julia	F	18-25	Married	237-555-0151	3	0	1	3	1
+306	Julia	F	46-55	Single	104-555-0122	3	0	2	0	5
+307	Peter	M	36-45	Married	127-555-0124	27	0	5	3	8
+308	Julia	F	36-45	Single	1 (11) 500 555-0113	27	1	2	0	4
+309	Peter	M	26-35	Married	345-555-0135	1	0	3	1	4
+310	Peter	M	36-45	Married	1 (11) 500 555-0199	11	0	4	2	5
+311	Peter	M	26-35	Married	1 (11) 500 555-0175	65	0	5	3	11
+312	Julia	F	36-45	Single	1 (11) 500 555-0118	1	0	2	0	4
+313	Dwayne	M	46-55	Single	381-555-0158	29	0	1	0	4
+314	Peter	M	46-55	Married	1 (11) 500 555-0183	38	0	3	1	4
+315	Julia	F	26-35	Single	244-555-0113	32	0	1	0	4
+316	Peter	M	56-70	Married	698-555-0179	73	0	5	3	5
+317	Julia	F	56-70	Married	823-555-0135	39	0	2	2	3
+318	Peter	M	46-55	Single	305-555-0182	39	0	1	0	6
+319	Peter	M	46-55	Single	1 (11) 500 555-0160	8	0	1	0	5
+320	Peter	M	36-45		1 (11) 500 555-0176	1	0	1	0	3
+321	Julia	F	26-35	Single	1 (11) 500 555-0163	1	0	1	0	2
+322	Peter	M	36-45	Married	524-555-0149	69	0	5	3	4
+323	Jennifer	F	46-55	Married	355-555-0191	69	0	4	2	2
+324	Peter	M	46-55	Single	159-555-0111	44	0	1	0	5
+325	Jennifer	F	46-55	Married	1 (11) 500 555-0117	54	0	5	3	4
+326	Jennifer	F	46-55	Married	963-555-0148	17	0	2	2	3
+327	Jennifer	F	36-45	Married	1 (11) 500 555-0164	17	0	5	3	5
+328	Corey	M	26-35	Married	113-555-0147	71	0	4	2	1
+329	Corey	M	36-45	Married	1 (11) 500 555-0164	71	0	2	1	6
+330	Jennifer	F	56-70	Single	1 (11) 500 555-0118	39	0	1	0	1
+331	Jennifer	F	26-35	Single	453-555-0118	25	0	1	0	7
+332	Corey	M	26-35	Single	173-555-0138	1	0	1	0	4
+333	Jennifer	F	26-35		1 (11) 500 555-0197	56	0	2	0	6
+334	Jennifer	F	26-35	Married	179-555-0118	7	0	2	2	1
+335	Kelvin	M	56-70	Married	1 (11) 500 555-0193	49	0	2	3	7
+336	Dwayne	M	36-45	Married	1 (11) 500 555-0114	49	0	1	2	5
+337	Corey	M	36-45	Single	1 (11) 500 555-0177	1	1	2	0	4
+338	Jennifer	F	70+	Single	1 (11) 500 555-0178	1	0	1	0	2
+339	Jennifer	F	36-45	Single	1 (11) 500 555-0121	7	0	1	0	3
+340	Corey	M	26-35		508-555-0164	66	0	2	0	4
+341	Jennifer	F	36-45	Married	1 (11) 500 555-0128	49	0	2	2	5
+342	Jennifer	F	46-55	Married	574-555-0134	74	0	4	2	4
+343	Corey	M	26-35	Single	857-555-0111	35	0	2	0	4
+344	Corey	M	56-70	Married	1 (11) 500 555-0133	35	0	2	1	6
+345	Corey	M	46-55	Married	1 (11) 500 555-0111	54	0	1	3	4
+346	Corey	M	26-35		1 (11) 500 555-0162	1	0	3	1	4
+347	Corey	M	46-55	Married	1 (11) 500 555-0194	1	0	2	0	6
+348	Jennifer	F	46-55	Married	1 (11) 500 555-0112	60	0	5	0	6
+349	Dwayne	M	36-45	Married	589-555-0184	60	0	3	1	5
+350	Corey	M	46-55	Married	1 (11) 500 555-0153	7	0	3	1	5
+351	Corey	M	36-45	Single	1 (11) 500 555-0170	71	1	4	0	1
+352	Jennifer	F	56-70	Married	183-555-0160	4	0	2	0	2
+353	Jennifer	F	26-35	Single	1 (11) 500 555-0162	34	0	1	0	6
+354	Corey	M	56-70	Married	254-555-0176	16	1	3	1	3
+355	Corey	M	46-55	Single	195-555-0161	26	0	3	0	5
+356	Jennifer	F	70+	Single	1 (11) 500 555-0157	61	0	1	0	4
+357	Corey	M	36-45	Single	336-555-0135	14	0	1	0	2
+358	Jennifer	F	46-55	Married	1 (11) 500 555-0151	50	0	2	1	5
+359	Corey	M	36-45	Single	917-555-0177	50	0	4	0	4
+360	Jennifer	F	46-55	Single	144-555-0133	41	0	1	0	1
+361	Jennifer	F	46-55	Married	626-555-0164	73	0	2	1	4
+362	Corey	M	46-55	Single	333-555-0121	73	0	1	0	2
+363	Corey	M	46-55	Married	1 (11) 500 555-0111	15	0	2	1	2
+364	Jennifer	F	70+		1 (11) 500 555-0114	15	0	1	0	4
+365	Dwayne	M	36-45		124-555-0196	45	0	1	0	1
+366	Corey	M	26-35	Single	1 (11) 500 555-0184	62	0	1	0	2
+367	Corey	M	46-55	Married	1 (11) 500 555-0130	76	0	3	1	8
+368	Jennifer	F	36-45		1 (11) 500 555-0145	36	0	4	2	5
+369	Jennifer	F	18-25	Married	170-555-0112	47	0	2	1	2
+370	Keith	M	26-35	Single	130-555-0170	47	0	1	0	5
+371	Jennifer	F	26-35	Single	1 (11) 500 555-0197	47	0	5	3	1
+372	Jennifer	F	26-35	Married	670-555-0184	74	0	2	2	5
+373	Keith	M	46-55	Married	944-555-0169	74	0	1	3	2
+374	Keith	M	36-45	Married	439-555-0122	52	0	2	2	5
+375	Keith	M	46-55	Married	1 (11) 500 555-0139	52	0	5	3	5
+376	Jennifer	F	46-55	Single	1 (11) 500 555-0148	1	1	1	0	4
+377	Keith	M	26-35	Single	101-555-0128	75	0	2	0	4
+378	Keith	M	36-45	Married	1 (11) 500 555-0189	61	0	2	2	9
+379	Keith	M	46-55	Married	1 (11) 500 555-0112	45	0	4	2	4
+380	Jennifer	F	18-25	Married	1 (11) 500 555-0149	1	0	3	1	2
+381	Keith	M	46-55	Single	113-555-0113	1	0	1	0	2
+382	Dwayne	M	26-35	Single	1 (11) 500 555-0137	3	0	3	0	4
+383	Keith	M	46-55		1 (11) 500 555-0163	42	0	1	0	7
+384	Keith	M	56-70	Married	1 (11) 500 555-0199	42	0	2	2	9
+385	Keith	M	46-55	Single	1 (11) 500 555-0146	65	0	2	0	4
+386	Jennifer	F	36-45		1 (11) 500 555-0199	36	0	3	1	5
+387	Keith	M	46-55	Single	377-555-0139	73	0	1	0	1
+388	Keith	M	36-45	Married	1 (11) 500 555-0173	35	0	2	2	4
+389	Jennifer	F	46-55	Single	1 (11) 500 555-0127	74	0	1	0	5
+390	Keith	M	46-55	Married	1 (11) 500 555-0189	62	0	2	1	5
+391	Keith	M	46-55		193-555-0190	17	0	3	1	5
+392	Keith	M	46-55		1 (11) 500 555-0182	17	0	1	2	6
+393	Jennifer	F	70+	Married	143-555-0184	49	0	1	3	5
+394	Jennifer	F	46-55	Married	236-555-0137	46	0	2	2	3
+395	Jennifer	F	26-35	Single	257-555-0141	46	0	1	0	2
+396	Keith	M	46-55	Married	263-555-0116	1	0	1	2	2
+397	Keith	M	46-55	Single	1 (11) 500 555-0131	1	0	1	0	2
+398	Dwayne	M	70+	Married	1 (11) 500 555-0146	28	0	2	2	4
+399	Keith	M	26-35	Single	1 (11) 500 555-0114	64	1	3	0	3
+400	Jennifer	F	56-70	Married	207-555-0166	18	0	2	3	4
+401	Keith	M	70+	Married	507-555-0199	54	0	2	3	3
+402	Keith	M	36-45		1 (11) 500 555-0122	69	0	1	0	6
+403	Keith	M	36-45	Single	1 (11) 500 555-0115	37	0	1	0	2
+404	Jennifer	F	46-55	Married	1 (11) 500 555-0178	1	0	4	2	5
+405	Keith	M	18-25	Single	1 (11) 500 555-0175	25	1	2	0	1
+406	Jennifer	F	46-55	Married	1 (11) 500 555-0111	72	0	1	2	1
+407	Keith	M	56-70	Single	781-555-0160	72	0	2	0	4
+408	Jennifer	F	70+	Married	207-555-0133	47	0	2	3	5
+409	Keith	M	18-25	Single	1 (11) 500 555-0188	50	0	2	0	4
+410	April	F	46-55		173-555-0173	39	0	1		1
+411	April	F	46-55		1 (11) 500 555-0163	24	0	4	2	8
+412	April	F	46-55	Single	1 (11) 500 555-0182	59	0	4	0	5
+413	Dwayne	M	36-45	Single	1 (11) 500 555-0137	62	0	2	0	6
+414	April	F	70+	Single	1 (11) 500 555-0161	70	0	2	0	2
+415	Jennifer	F	56-70	Married	413-555-0177	20	0	2	3	3
+416	April	F	26-35	Single	1 (11) 500 555-0185	2	0	1	0	2
+417	Jennifer	F	70+	Single	1 (11) 500 555-0161	11	0	1	0	7
+418	Jennifer	F	36-45	Married	148-555-0115	32	0	3	1	6
+419	April	F	26-35	Single	234-555-0149	51	0	1	0	1
+420	Jennifer	F	70+	Single	223-555-0162	15	0	1	0	3
+421	April	F	56-70		101-555-0135	1	0	1	0	5
+422	Jennifer	F	26-35	Married	1 (11) 500 555-0124	1	0	1	2	7
+423	Jennifer	F	46-55	Married	150-555-0167	1	0	2	1	5
+424	Jennifer	F	36-45	Married	623-555-0122	74	0	3	1	7
+425	April	F	70+	Married	115-555-0183	1	0	2	3	7
+426	Jennifer	F	46-55	Married	1 (11) 500 555-0132	1	0	2	3	5
+427	April	F	36-45	Single	210-555-0123	23	0	1	0	9
+428	Jennifer	F	46-55	Married	1 (11) 500 555-0172	77	0	2	4	5
+429	April	F	70+	Married	117-555-0118	25	0	2	3	8
+430	Dwayne	M	46-55	Single	1 (11) 500 555-0184	12	1	1	0	4
+431	April	F	56-70	Married	1 (11) 500 555-0142	55	0	1	3	2
+432	Kaitlyn	F	46-55	Married	472-555-0185	67	0	3	1	5
+433	April	F	26-35	Married	647-555-0146	38	0	3	1	4
+434	April	F	36-45	Single	1 (11) 500 555-0167	68	0	1	0	4
+435	Karen	F	36-45	Married	1 (11) 500 555-0162	25	0	2	5	5
+436	Kaitlyn	F	46-55	Married	181-555-0184	70	0	1	2	2
+437	Kaitlyn	F	18-25	Single	203-555-0137	68	0	3	0	5
+438	Kaitlyn	F	56-70	Single	597-555-0139	32	0	1	0	4
+439	April	F	46-55	Single	625-555-0158	68	1	1	0	4
+440	Kaitlyn	F	36-45	Married	1 (11) 500 555-0168	14	0	3	1	4
+441	April	F	26-35	Married	725-555-0122	38	0	3	1	2
+442	Karen	F	46-55	Single	1 (11) 500 555-0134	24	0	1	0	1
+443	Kaitlyn	F	36-45	Single	134-555-0150	5	0	2	0	9
+444	April	F	36-45	Married	107-555-0156	1	0	2	2	1
+445	April	F	46-55	Married	1 (11) 500 555-0121	1	0	5	3	8
+446	Kaitlyn	F	46-55	Married	1 (11) 500 555-0144	72	0	3	1	3
+447	Dwayne	M	46-55	Married	248-555-0168	59	0	3	1	8
+448	April	F	70+	Married	1 (11) 500 555-0129	30	0	2	2	6
+449	April	F	36-45	Single	1 (11) 500 555-0114	44	0	1	0	3
+450	Kristin	F	26-35	Married	702-555-0144	36	1	2	2	5
+451	Kaitlyn	F	36-45	Married	1 (11) 500 555-0121	1	0	4	2	5
+452	Kristin	F	70+	Married	848-555-0159	46	0	2	3	6
+453	Kaitlyn	F	46-55	Single	575-555-0134	1	0	1	0	4
+454	Kristin	F	36-45	Married	197-555-0170	1	0	1	2	5
+455	Kristin	F	26-35	Single	249-555-0145	21	0	1	0	5
+456	Kristin	F	46-55	Single	1 (11) 500 555-0158	11	0	1	0	2
+457	Kaitlyn	F	18-25		1 (11) 500 555-0176	11	0	1	0	4
+458	Kristin	F	18-25	Single	1 (11) 500 555-0139	69	0	1	0	1
+459	Kristin	F	18-25	Married	1 (11) 500 555-0112	69	0	2	2	4
+460	Kaitlyn	F	36-45	Married	1 (11) 500 555-0119	1	0	1	1	5
+461	Kristin	F	26-35	Married	376-555-0167	28	0	2	0	5
+462	Dwayne	M	70+	Single	1 (11) 500 555-0139	32	0	2	0	4
+463	Kristin	F	70+	Married	1 (11) 500 555-0169	68	0	2	2	2
+464	Kaitlyn	F	70+	Single	1 (11) 500 555-0190	1	0	1	0	3
+465	Kristin	F	56-70	Married	795-555-0163	1	0	2	3	2
+466	Kaitlyn	F	46-55	Single	1 (11) 500 555-0114	41	0	1	0	3
+467	Kristin	F	46-55	Married	408-555-0180	55	0	2	2	5
+468	Kristin	F	46-55	Married	1 (11) 500 555-0113	63	0	4	2	5
+469	Kaitlyn	F	46-55	Married	1 (11) 500 555-0117	72	0	2	2	4
+470	Kristin	F	26-35	Married	635-555-0110	41	0	2	3	5
+471	Kristin	F	36-45	Single	1 (11) 500 555-0199	1	0	1	0	8
+472	Kaitlyn	F	46-55	Single	1 (11) 500 555-0156	49	0	1	0	5
+473	Kaitlyn	F	26-35	Married	942-555-0153	70	1	3	1	6
+474	Kristin	F	46-55	Single	543-555-0126	74	0	1	0	5
+475	Kaitlyn	F	18-25	Married	1 (11) 500 555-0135	74	1	3	1	4
+476	Kristin	F	46-55	Single	134-555-0148	18	0	4	0	2
+477	Kaitlyn	F	36-45	Single	1 (11) 500 555-0111	1	0	1	0	5
+478	Kristin	F	46-55	Married	870-555-0119	62	0	2	0	4
+479	Kaitlyn	F	46-55	Married	892-555-0121	6	0	2	2	4
+480	Kaitlyn	F	26-35	Married	674-555-0174	73	1	4	2	7
+481	Katie	F	46-55	Married	127-555-0157	36	0	3	1	6
+482	Kaitlyn	F	36-45	Single	541-555-0188	13	0	1	0	6
+483	Katie	F	46-55	Single	1 (11) 500 555-0150	75	1	1	0	2
+484	Kaitlyn	F	56-70	Single	926-555-0170	75	0	1	0	4
+485	Katie	F	36-45	Married	1 (11) 500 555-0170	53	0	2	0	6
+486	Kelvin	M	46-55	Married	1 (11) 500 555-0153	73	0	2	2	2
+487	Dwayne	M	18-25	Single	1 (11) 500 555-0163	12	0	2	0	5
+488	Katie	F	46-55	Single	1 (11) 500 555-0131	9	0	1	0	9
+489	Karen	F	36-45	Single	1 (11) 500 555-0139	60	0	1	0	5
+490	Kaitlyn	F	26-35		1 (11) 500 555-0145	8	0	1	0	3
+491	Kaitlyn	F	46-55		589-555-0146	8	0	1	2	5
+492	Katie	F	36-45		104-555-0123	1	0	2	1	4
+493	Katie	F	46-55	Married	683-555-0152	1	0	5	3	8
+494	Kaitlyn	F	36-45	Married	1 (11) 500 555-0125	63	0	2	2	6
+495	Katie	F	26-35	Single	928-555-0195	54	0	1	0	4
+496	Katie	F	18-25	Single	1 (11) 500 555-0154	18	1	4	0	1
+497	Katie	F	46-55	Married	1 (11) 500 555-0168	46	0	2	1	5
+498	Katie	F	26-35	Married	1 (11) 500 555-0140	69	0	5	3	4
+499	Kaitlyn	F	36-45	Single	1 (11) 500 555-0137	1	0	1	0	2
+500	Katie	F	36-45	Single	1 (11) 500 555-0139	38	0	1	0	1
